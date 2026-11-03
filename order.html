@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Order Form</title>
+<style>
+
+      body{ 
+        background:#fffcf0; 
+        font-family:Arial 
+      }
+
+      .form{ 
+        background:white; 
+        width:320px; 
+        margin:30px auto; 
+        padding:20px; 
+        border:1px solid #ddd; 
+        border-radius:10px 
+      }
+
+      input{ 
+        width:100%; 
+        padding:8px; 
+        margin:5px 0 10px 0; 
+        border:1px solid #ccc; 
+        border-radius:5px 
+      }
+
+      select{
+        width:100%;
+        padding:8px;
+        margin:5px 0 10px 0;
+        border:1px solid #ccc;
+        border-radius:5px
+      }
+
+      .btn{ 
+        width:100%; 
+        background:green; 
+        color:white; 
+        padding:10px; 
+        border:none; 
+        border-radius:5px; 
+        display:block; 
+        text-align:center 
+      }
+
+</style>
+</head>
+<body>
+
+<div class="form">
+<h3 style="text-align:center">Order Form</h3>
+
+<form action="successful.html">
+
+      Name<br>
+      <input type="text" placeholder="Enter name" required><br>
+
+      Mobile<br>
+      <input type="text" placeholder="Enter mobile" required><br>
+
+      Address<br>
+      <input type="text" placeholder="Enter address" required><br>
+
+      City<br>
+      <input type="text" placeholder="Enter city" required><br>
+
+      Quantity<br>
+      <select required>
+            <option value="">Select Qty</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+      </select><br><br>
+
+      <input class="btn" type="submit" value="Place Order">
+
+</form>
+
+</div>
+
+</body>
+</html>

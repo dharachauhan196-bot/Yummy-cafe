@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>Contact - Yummy</title>
+<style>
+
+      body{
+        margin:0; 
+        font-family:Arial; 
+        background:#fffcf0; 
+        padding-bottom:60px
+      }
+
+      .header{
+        background:white; 
+        padding:15px; 
+        text-align:center; 
+        box-shadow:0 2px 5px #ddd
+      }
+
+      .main{
+        background:white; 
+        margin:15px; 
+        padding:15px; 
+        border-radius:12px
+      }
+
+      input, textarea{
+        width:90%; 
+        padding:10px; 
+        margin:8px 0; 
+        border:1px solid #ddd; 
+        border-radius:8px
+      }
+
+      .btn{
+        background:#ffcc00; 
+        border:none; 
+        padding:10px 20px; 
+        border-radius:20px; 
+        font-weight:bold
+      }
+
+      #thanks{
+        display:none; 
+        background:#e6ffe6; 
+        border:1px solid green; 
+        padding:10px; 
+        margin-top:10px; 
+        border-radius:10px; 
+        text-align:center
+      }
+
+      #thanks:target{
+        display:block
+      }
+
+      .copy{
+        background:white; 
+        text-align:center; 
+        padding:15px; 
+        margin-top:20px; 
+        font-size:12px
+      }
+
+      .footer-nav{
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+        background:white;
+        border-top:1px solid #ddd;
+        display:flex;
+        justify-content:space-around;
+        padding:12px 0
+      }
+
+      .footer-nav a{ 
+        text-decoration:none; 
+        color:gray; 
+        font-size:14px 
+      }
+
+</style>
+</head>
+<body>
+
+<div class="header">
+      <b>😋 Yummy.</b> - Good food, good mood
+</div>
+
+<div class="main">
+
+      <h2>Contact Us</h2>
+      <p>Have questions? We are here to help you!</p>
+
+      <p>📍 Surat, Gujarat</p>
+      <p>📧 yummy@gmail.com</p>
+      <p>📞 24/7 Support - Fast Delivery 30 mins</p>
+
+      <hr>
+
+      <h3>Send Message</h3>
+
+      <form action="#thanks">
+
+            Name<br>
+            <input type="text" placeholder="Enter Name" required><br>
+
+            Email<br>
+            <input type="email" placeholder="Enter Email" required><br>
+
+            Message<br>
+            <textarea placeholder="Write Message" required></textarea><br>
+
+            <button class="btn" type="submit">Send</button>
+
+      </form>
+
+      <div id="thanks">
+            Thank you for visiting Yummy! 😋<br>
+            Get 20% OFF on your first order
+      </div>
+
+</div>
+
+<div class="copy">
+      © 2026 Yummy - Good food, good mood
+</div>
+
+<div class="footer-nav">
+  <a href="home.html">Home</a>
+  <a href="menu.html">Menu</a>
+  <a href="foodinfo.html">foodinfo</a>
+  <a href="about.html">About</a>
+  <a href="contact.html"><b style="color: black;">Contact</b></a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>Home - Yummy</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:white;
+    padding-bottom:60px
+}
+
+.hero{
+    width:100%;
+    text-align:center;
+    position: relative;
+}
+
+.hero img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+}
+
+.hero h2{
+    text-align:center;
+    color:#1b5e20;
+    margin:15px 0
+}
+
+.hero-buttons{
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    width:100%;
+}
+
+.hero-buttons a{
+    background:#1b5e20;
+    color:white;
+    text-decoration:none;
+    padding:12px 28px;
+    border-radius:22px;
+    font-weight:bold;
+    font-size:14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.hero-buttons a:last-child{
+    background:white;
+    color:#1b5e20;
+    border: 1px solid #1b5e20;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    padding:14px 0;
+    font-size:11px;
+    color:#666;
+    border-bottom:1px solid #f0f0f0
+}
+
+.stats b{
+    color:#000;
+    font-size:13px
+}
+
+.main{
+    text-align:center;
+    padding:15px
+}
+
+.main h3{
+    font-size:15px;
+    margin:18px 0 12px 0
+}
+
+.why{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    font-size:10px;
+    line-height:14px;
+    color:#777
+}
+
+.why b{
+    color:#222;
+    font-size:11px
+}
+
+.foods{
+    display:flex;
+    justify-content:center;
+    gap:25px
+}
+
+.foods div{
+    background:#fff;
+    border:1px solid #eee;
+    border-radius:12px;
+    padding:8px;
+    width:75px;
+    font-size:10px;
+    color:#666;
+    box-shadow:0 2px 6px #f0f0f0
+}
+
+.foods img{
+    width:100%;
+    height:60px;
+    border-radius:10px;
+    object-fit:cover
+}
+
+.foods b{
+    color:#000
+}
+
+.nav{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:white;
+    border-top:1px solid #ddd;
+    display:flex;
+    justify-content:space-around;
+    padding:12px 0
+}
+
+.nav a{
+    text-decoration:none;
+    color:#777;
+    font-size:11px
+}
+
+.nav a:first-child{
+    color:#1b5e20;
+    font-weight:bold
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <img src="food.jpg">
+    <div class="hero-buttons">
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <h2>Welcome to Yummy Cafe</h2>
+</div>
+
+<div class="stats">
+    <div>
+        <b>1000+</b><br>
+        Happy Customers
+    </div>
+    <div>
+        <b>4.8 ★</b><br>
+        Rating
+    </div>
+    <div>
+        <b>500+</b><br>
+        Dishes Sold
+    </div>
+</div>
+
+<div class="main">
+    <h3>Why Order with Yummy?</h3>
+    <div class="why">
+        <div>
+            <b>Fresh Food</b><br>
+            Handpicked<br>
+            ingredients
+        </div>
+        <div>
+            <b>Safe Packing</b><br>
+            Clean & safe<br>
+            delivery
+        </div>
+        <div>
+            <b>Fast Support</b><br>
+            24/7 help
+        </div>
+    </div>
+
+    <h3>Our Favorite Foods</h3>
+    <div class="foods">
+        <div>
+            <img src="burger1.jpg">
+            Burger<br>
+            <b>₹199</b>
+        </div>
+        <div>
+            <img src="pizza.jpg">
+            Pizza<br>
+            <b>₹299</b>
+        </div>
+        <div>
+            <img src="pasta.jpg">
+            Pasta<br>
+            <b>₹249</b>
+        </div>
+    </div>
+</div>
+
+<div class="nav">
+    <a href="home.html"><b style="color: #000;">home</b></a>
+    <a href="menu.html">Menu</a>
+    <a href="foodinfo.html">foodinfo</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+</body>
+</html>
